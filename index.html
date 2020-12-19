@@ -4,7 +4,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <nav>
+      <h1>What's for Dinner?</h1>
+      <button class="addRecipeBtn">ADD A RECIPE</button>
+    </nav>
+    <section class="flexBody">
+      <div class="flexBox"  id="userInput">
+        <h2>What are you looking for?</h2>
+        <div class="radio">
+          <input type="radio" id="side" name="dish" value="side">
+          <label for="side">Side</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="mainDish" name="dish" value="mainDish">
+          <label for="mainDish">Main Dish</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="dessert" name="dish" value="dessert">
+          <label for="dessert">Dessert</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="entireMeal" name="dish" value="entireMeal">
+          <label for="entireMeal">Entire Meal</label>
+        </div>
+        <button class="letsCookBtn">LET'S COOK!</button>
+      </div>
+      <div class="flexBox" id="userOutput">
+        <img src="assets/cookpot.svg">
+      </div>
+      <div class="flexBox" style="display: none;">
+        <h3 style="font-style: italic;">You should make:</h3>
+        <p></p>
+      </div>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
