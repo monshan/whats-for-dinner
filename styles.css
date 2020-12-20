@@ -37,7 +37,7 @@ nav {
 
 h1 {
     float: left;
-    font-size: 30px;
+    font-size: 28px;
     margin: 25px 0px 25px 25px;
 }
 
@@ -48,6 +48,9 @@ h2 {
     margin: 14.5% 0% 2.5% 8%;
 }
 
+h3 {
+    margin: 30% 0% 0% 35%;
+}
 
 body {
     background-image: url(assets/burger-friends.jpg);
@@ -56,9 +59,10 @@ body {
     height: auto;
 }
 
-ul {
-    display: flexbox;
-    align-items: flex-start; 
+p {
+    font-style: italic;
+    font-size: 7vh;
+    margin: 1% 0% 0% 15%;
 }
 
 .radio {
@@ -108,4 +112,32 @@ img  {
     margin: 27% 0% 0% 31%;
     height: 40%;
     width: 40%;
+}
+
+.hidden {
+    display: none;
+}
+
+.clearBtn {
+    color: white;
+    background-color: #95a5a6;
+    border: 0px;
+    border-radius: 6px;
+    margin: 15% 5% 0% 75%;
+    padding: 2.5%;
+    width: 19%;
+}
+
+form {
+    height: 87px;
+    background-color: rgba(225, 225, 225, .9);
+}
+
+.addNewBtn {
+    background-color: #0fb9b1;
+}
+
+.smaller {
+    font-size: 4.5vh;
+    margin-left: 8%;
 }
