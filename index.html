@@ -29,14 +29,20 @@
         </div>
         <button class="letsCookBtn">LET'S COOK!</button>
       </div>
-      <div class="flexBox" id="userOutput">
+      <div class="placeholder flexBox">
         <img src="assets/cookpot.svg">
       </div>
-      <div class="flexBox" style="display: none;">
-        <h3 style="font-style: italic;">You should make:</h3>
-        <p></p>
+      <div class="userOutputBox flexBox hidden">
+        <h3 style="font-style: italic; font-size: large;">You should make:</h3>
+          <p class="foodOutput"></p>
+        <button class="clearBtn">CLEAR</button>
       </div>
     </section>
+    <form class="form hidden">
+      Recipe Type:<input type="text">
+      Recipe Name:<input type="text">
+      <button class="addNewBtn">ADD NEW</button>
+    </form>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
